@@ -1,0 +1,493 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #252b42;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-top: 17px;
+  width: 100%;
+}
+.navbar .icon h3 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: white;
+  margin-left: 195px;
+}
+.navbar .text {
+  display: flex;
+  gap: 21px;
+  align-items: center;
+}
+.navbar .text a {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: white;
+  margin-left: 41px;
+  text-decoration: none;
+}
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+.navbar .logo a {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-align: right;
+  color: white;
+  text-decoration: none;
+  margin-left: 235px;
+}
+.navbar .logo button {
+  width: 241px;
+  height: 52px;
+  border-radius: 5px;
+  border: none;
+  background-color: #23a6f0;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: white;
+  gap: 15px;
+  align-items: center;
+  text-align: center;
+}
+.navbar .img {
+  position: absolute;
+}
+.navbar .img img {
+  margin-top: 94px;
+  width: 244px;
+  height: 284px;
+  top: 279px;
+}
+
+.section-1 {
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+  gap: 30px;
+}
+.section-1 .text {
+  margin-left: 195px;
+}
+.section-1 .text h1 {
+  font-family: Montserrat;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: white;
+  margin-top: 173px;
+}
+.section-1 .text h4 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: white;
+  margin-top: 35px;
+}
+.section-1 .text .btn {
+  display: flex;
+  gap: 10px;
+  margin-top: 35px;
+}
+.section-1 .text .btn button {
+  width: 185px;
+  height: 52px;
+  border-radius: 37px;
+  background-color: #23a6f0;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: white;
+  border: none;
+}
+.section-1 .text .btn span {
+  width: 185px;
+  height: 52px;
+  border: 2px solid #9ca1a3;
+  border-radius: 37px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: white;
+}
+.section-1 .text .btn span h4 {
+  text-align: center;
+  margin-top: 5px;
+}
+.section-1 .img img {
+  position: absolute;
+  margin-left: -650px;
+  margin-bottom: -300px;
+  margin-top: -350px;
+}
+.section-1 .img span {
+  margin-left: 800px;
+  margin-top: 170px;
+  position: absolute;
+}
+
+.section-2 {
+  margin-top: 260px;
+}
+.section-2 .text {
+  text-align: center;
+}
+.section-2 .text h2 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: white;
+}
+.section-2 .text p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #737373;
+  margin-top: 10px;
+}
+.section-2 .box {
+  margin-top: 69px;
+  display: flex;
+  margin-left: 197px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.section-2 .box .card {
+  width: 328px;
+  height: 139px;
+  display: flex;
+  align-items: center;
+  gap: 29px;
+  border: 1px solid #f2f2f2;
+}
+.section-2 .box .card img {
+  width: 49px;
+  height: 37px;
+  margin-left: 20px;
+}
+.section-2 .box .card span h6 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: white;
+}
+.section-2 .box .card span p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: white;
+}
+
+.section-3 .text {
+  margin-top: 112px;
+  text-align: center;
+}
+.section-3 .text h2 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: white;
+}
+.section-3 .text p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: white;
+}
+.section-3 .img {
+  margin-top: 80px;
+  width: 744px;
+  height: 362px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+  margin-left: 348px;
+}
+.section-3 .img img {
+  margin-top: 40px;
+  margin-left: 324px;
+}
+.section-3 .img p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #737373;
+  margin-top: 30px;
+}
+.section-3 .img .star {
+  width: 130px;
+  height: auto;
+  display: flex;
+}
+.section-3 .img h4 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+  margin-top: 15px;
+  margin-left: 293px;
+}
+.section-3 .img h6 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  margin-left: 341px;
+  margin-top: 8px;
+}
+
+.section-4 {
+  margin-top: 190px;
+}
+.section-4 .text {
+  text-align: center;
+}
+.section-4 .text h2 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: white;
+}
+.section-4 .text p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: white;
+}
+.section-4 .box {
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+  margin-left: 300px;
+}
+.section-4 .box .card {
+  width: 210px;
+  height: 82px;
+  border: 1px solid #5b5e6c;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.section-4 .box .card img {
+  margin-left: 28px;
+  width: 33px;
+  height: 33px;
+}
+.section-4 .box .card span h5 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: white;
+}
+.section-4 .box .card span h6 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: white;
+}
+
+.section-5 {
+  margin-top: 200px;
+}
+.section-5 .text {
+  text-align: center;
+}
+.section-5 .text h2 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: white;
+}
+.section-5 .text p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+.section-5 .cover .box {
+  margin-top: 146px;
+  gap: 30px;
+  margin-left: 195px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.section-5 .cover .box .card {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  width: 508px;
+  height: 243px;
+  border-radius: 10px;
+}
+.section-5 .cover .box .card .text {
+  width: 50%;
+  margin-left: 49px;
+}
+.section-5 .cover .box .card .text h4 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #23a6f0;
+}
+.section-5 .cover .box .card .text p {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #5b5e6c;
+}
+.section-5 .cover .box .card .img span {
+  display: flex;
+}
+.section-5 .cover .box .card .img span h3 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #23a6f0;
+}
+.section-5 .cover .box .card .img span h5 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #23a6f0;
+}
+.section-5 .cover .box .card .img button {
+  width: 162px;
+  height: 52px;
+  background-color: #23a6f0;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.section-6 {
+  display: flex;
+  margin-top: 200px;
+  margin-left: 196px;
+  align-items: center;
+  gap: 117px;
+}
+.section-6 .text h2 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: white;
+}
+.section-6 .text p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: white;
+}
+
+.footer {
+  width: 100%;
+  height: 414px;
+  display: flex;
+  gap: 30px;
+}
+.footer .box h2 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: white;
+}
+.footer .box h2 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
